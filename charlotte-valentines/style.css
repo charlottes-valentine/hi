@@ -1,0 +1,41 @@
+html, body {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    background-color: rgb(255, 226, 231);
+}
+
+body[data-aos-duration='90000'] [data-aos],
+  [data-aos][data-aos][data-aos-duration='90000'] {
+    transition-duration: 90000ms;
+  }
+
+.word {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    margin: auto;
+}
+
+img {
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 100px;
+    width: 100%;
+}
+
+
+#charlotte {
+    margin:auto;
+}
